@@ -215,27 +215,27 @@ def callback_handler(call):
 
     elif call.data == 'dashboard_function3':
         # Замените на ваши реальные ссылки на изображения графиков, если они есть
-        image1_url = 'https://raw.githubusercontent.com/vladislawwwwww/TelegramBotRgr/development/graphik1.jpg'
+        image1_url = 'https://clck.ru/3UG4uC'
         bot.send_photo(call.message.chat.id, image1_url, caption='Это точечный график')
 
     elif call.data == 'dashboard_function4':
-        image2_url = 'https://raw.githubusercontent.com/vladislawwwwww/TelegramBotRgr/development/graphik2.jpg'
+        image2_url = 'https://clck.ru/3UG4uQ'
         bot.send_photo(call.message.chat.id, image2_url, caption='Это столбчатый график')
 
     elif call.data == 'dashboard_function5':
-        image3_url = 'https://raw.githubusercontent.com/vladislawwwwww/TelegramBotRgr/development/graphik3.jpg'
+        image3_url = 'https://clck.ru/3UG4uS'
         bot.send_photo(call.message.chat.id, image3_url, caption='Это круговой график')
 
     elif call.data == 'dashboard_function6':
-        image4_url = 'https://raw.githubusercontent.com/vladislawwwwww/TelegramBotRgr/development/graphik4.jpg'
+        image4_url = 'https://clck.ru/3UG4uk'
         bot.send_photo(call.message.chat.id, image4_url, caption='Это линейный график')
 
     elif call.data == 'dashboard_function7':
-        image5_url = 'https://raw.githubusercontent.com/vladislawwwwww/TelegramBotRgr/development/graphik5.jpg'
+        image5_url = 'https://clck.ru/3UG4uo'
         bot.send_photo(call.message.chat.id, image5_url, caption='Это ящичковый график')
 
     elif call.data == 'dashboard_function8':
-        image6_url = 'https://raw.githubusercontent.com/vladislawwwwww/TelegramBotRgr/development/table1.jpg'
+        image6_url = 'https://clck.ru/3UG4ut'
         bot.send_photo(call.message.chat.id, image6_url, caption='Это таблица')
 
     # ---------- ПОМОЩЬ ----------
